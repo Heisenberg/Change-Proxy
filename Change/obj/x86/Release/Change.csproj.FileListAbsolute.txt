@@ -1,0 +1,9 @@
+I:\change\Change\Change\bin\Release\Change.exe
+I:\change\Change\Change\bin\Release\Change.pdb
+I:\change\Change\Change\obj\x86\Release\ResolveAssemblyReference.cache
+I:\change\Change\Change\obj\x86\Release\Change.FormMain.resources
+I:\change\Change\Change\obj\x86\Release\Change.Properties.Resources.resources
+I:\change\Change\Change\obj\x86\Release\GenerateResource.read.1.tlog
+I:\change\Change\Change\obj\x86\Release\GenerateResource.write.1.tlog
+I:\change\Change\Change\obj\x86\Release\Change.exe
+I:\change\Change\Change\obj\x86\Release\Change.pdb

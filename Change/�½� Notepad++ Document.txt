@@ -1,0 +1,27 @@
+1.notifyicon名字修改，或别的修改
+http://www.cnblogs.com/Jan_Dai/archive/2011/04/03/2004241.html
+private void Form1_Load(object sender, EventArgs e)
+{
+	notifyIcon1.Text = "动态系统托盘图标示例" + "\n" + "designed by yoyo";  //或直接控件属性修改
+	timer1.Start();    //time1启动
+	notifyIcon1.Icon = icon1;
+}
+
+2.托盘图标根据状态更改
+http://www.diybl.com/course/4_webprogram/asp.net/netjs/20091113/182234.html
+增加环境变量。（改private试试）
+在Form-Load和btnOK里添加对环境变量的同步。
+在最小化时显示不同的icon。
+
+if (icon1 != null && icon2 != null) //如果两个图标文件都被正确载入
+{
+	if (a=="1")//如果托盘图标为icon1，则更改为icon2
+	{
+		notifyIcon1.Icon ????????= icon2;
+		a ="2";
+	}
+	else//否则则将图标设置为icon1
+	{
+		notifyIcon1.Icon = icon1;
+		a = "1";
+	}

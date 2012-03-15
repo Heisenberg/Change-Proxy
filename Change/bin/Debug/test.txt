@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<Data>
+  <Connection>
+    <address>127.0.0.1</address>
+    <port>8087</port>
+</Connection>
+  <Connection>
+    <address>10.3.161.47 </address>
+    <port>8087 </port>
+</Connection>
+  <Connection>
+    <address>10.3.161.45 </address>
+    <port>88 </port>
+</Connection>
+</Data>
